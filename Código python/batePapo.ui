@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BatePapo</class>
+ <widget class="QDialog" name="BatePapo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>630</width>
+    <height>409</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icons/icons8-message-preview-64.png</normaloff>icons/icons8-message-preview-64.png</iconset>
+  </property>
+  <widget class="QTextBrowser" name="todas_mensagens">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>10</y>
+     <width>461</width>
+     <height>331</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="enviar_mensagem">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>350</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enviar</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/icons8-email-send-96.png</normaloff>icons/icons8-email-send-96.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="enviar_arquivo">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>380</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Arquivo</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/icons8-add-file-96.png</normaloff>icons/icons8-add-file-96.png</iconset>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="cliente_mensagem">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>350</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="lista_usuarios">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>141</width>
+     <height>391</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
